@@ -1,0 +1,34 @@
+:root {
+  // COLORS
+
+  // primary
+
+  --primary-400-hsl: 180 29% 50%;
+  --primary-400: hsl(180 29% 50%);
+
+  // neutral
+
+  --neutral-100: hsl(180, 52%, 96%);
+  --neutral-200: hsl(180, 31%, 95%);
+  --neutral-700: hsl(180 8% 52%);
+  --neutral-800-hsl: 189 81% 28%;
+  --neutral-900: hsl(180 14% 20%);
+  --neutral-dot: hsl(180 10% 74%);
+
+  // TYPOGRAPHY
+
+  // font family
+
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --ff-base: 'League Spartan', sans-serif;
+
+  --fs-base: 0.9375rem;
+
+  // SIZING
+
+  // header
+
+  --header-height: 9.75rem;
+}

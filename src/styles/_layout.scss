@@ -1,0 +1,42 @@
+body {
+  background-color: var(--neutral-100);
+  overflow-y: scroll;
+}
+
+.header {
+  background-color: #5ca5a5;
+  background-image: url(../images/bg-header-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: var(--header-height);
+  margin-bottom: 4.75rem;
+
+  @media (min-width: 1024px) {
+    background-image: url(../images/bg-header-desktop.svg);
+  }
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: -7rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.3125rem;
+  padding: 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 1rem 1.25rem -0.25rem hsl(var(--neutral-800-hsl) / 15%);
+
+  &__panel {
+    position: sticky;
+    top: 1rem;
+    // box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  }
+}
+
+.container {
+  width: min(100% - 3rem, 1110px);
+  margin-inline: auto;
+}
